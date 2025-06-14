@@ -22,24 +22,7 @@ Snip Share is a full-stack **real-time collaborative code editor** that enables 
 ---
 
 ## 🧱 Project Structure
-SnipShare_01/
-├── client/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Editor.js // Main CodeMirror editor
-│ │ │ └── Client.js // Connected client avatar display
-│ │ ├── pages/
-│ │ │ └── EditorPage.js // Main collaboration page
-│ │ ├── socket/
-│ │ │ └── index.js // WebSocket client setup
-│ │ ├── Actions.js // Action types for socket communication
-│ │ ├── App.css // App-wide styling
-│ │ └── App.js, index.js // Root files
-│ └── package.json
-├── server/
-│ ├── server.js // WebSocket backend
-│ └── package.json
-├── README.md
+<pre lang="text"><code> SnipShare_01/ ├── client/ │ ├── public/ │ └── src/ │ ├── components/ │ │ ├── Client.js # Component to show connected users │ │ └── Editor.js # Code editor using CodeMirror │ ├── pages/ │ │ └── EditorPage.js # Editor room interface with socket logic │ ├── socket/ │ │ └── index.js # Client-side socket setup │ ├── Actions.js # Socket action constants │ ├── App.css # Styling for the frontend │ ├── App.js # Root React component │ └── index.js # Entry point for React app ├── server/ │ └── server.js # WebSocket server using Express and Socket.IO ├── package.json # Root project manifest (optional combined) ├── README.md # Project documentation └── .gitignore </code></pre>
 
 
 ---
