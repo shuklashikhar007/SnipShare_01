@@ -5,7 +5,8 @@ Snip Share is a full-stack **real-time collaborative code editor** that enables 
 ## 🌐 Live Demo
 
 > 🎥 **Demo Video:**  
-> [Insert Demo Video Here]  
+[![Watch the video](assets/video-thumbnail.png)](VideoDemo-SnipShare.mp4)
+  
 ---
 
 ## ✨ Features
